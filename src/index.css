@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+*{
+  margin : 0;
+  padding : 0;
+  box-sizing: border-box;
+}
+:root{
+  font-size : 62.5%;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  width : 100%;
+  min-height : 100vh;
+  background-color: rgb(3,0,31);
+  color : white;
+}
+p , li , span{
+  font-size : 1.6rem;
+}
+h1,h2,h3{
+  letter-spacing: .015em;
+  margin-bottom: .3em;
+}
+.lg-heading{
+  font-size: 3.8rem;
+}
+.md-heading{
+  font-size: 2.8rem;
+}
+.md-sm-heading{
+  font-size: 2.2rem;
+}
+.main-component{
+  width : 100%;
+  min-height : 100vh;
+  display: flex;
+
+}
+.side-1{
+ 
+  flex : 20%;
+  border-right : 1px solid rgba(128, 128, 128, 0.393);
+  display: flex;
+  flex-direction: column;
+
+}
+.side-division-1{
+  /* border: 2px solid green; */
+  border-bottom: 1px solid rgba(128, 128, 128, 0.393);
+  width : 100%;
+  flex : 70%;
+  padding : 2.4em;
+}
+.logo-image{
+  /* border: 2px solid red; */
+  width : 100%;
+  display: flex;
+  align-items: center;
+}
+.logo-image img{
+  display: inline-block;
+  object-fit: cover;
+  width : 5rem;
+  
+}
+.logo-image span{
+  display: inline-block;
+  margin-left : 1rem;
+}
+.side-division-2{
+  flex : 30%;
+  padding: 2.4em;
+  font-size: 1.4rem;
+  font-weight : 300;
+  /* border: 2px solid red; */
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  gap : 3rem;
+  cursor: pointer;
+
+}
+.side-division-2 span{
+  font-size: 1.4rem;
+}
+.side-division-2 i{
+  /* border: 2px solid red; */
+  width : 5rem;
+  font-size: 1.8rem;
+  display: inline-block;
+  padding: 0 1rem;
+  /* margin-right: 1rem; */
+}
+.side-division-2-icon{
+  /* border: 2px solid green; */
+  /* margin-bottom: 1rem; */
+  display: flex;
+  align-items: center;
+  /* gap : .2rem; */
+  /* cursor: pointer; */
+}
+.side-1-btn{
+  /* border : 2px solid red; */
+  margin-top: 2.5em;
+  border-radius: .3em;
+}
+.side-1-btn button{
+  border: none;
+  outline: none;
+  background-color: blueviolet;
+  background-color: #686de0;
+  color : white;
+  display: block;
+  width: 100%;
+  padding: 1em 0;
+  font-size: 1.6rem;
+  border-radius: .3em;
+  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap : .8rem;
+  cursor: pointer;
+}
+i{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+.side-1-questions{
+  /* border: 2px solid red; */
+  margin-top : 3em;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+.question{
+  border: 1px solid rgba(255, 255, 255, 0.536);
+  border-radius: .5em;
+  padding : 1.5em 1.5em;
+  /* gap : 1rem; */
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap : .8rem;
+  cursor: pointer;
+
+}
+.question span{
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+.side-2{
+  /* border: 2px solid green; */
+  flex : 75%;
+  /* border: 2px solid red; */
+  padding : 5rem 15rem;
+  padding-bottom: 0;
+
+  display : flex;
+  flex-direction: column;
+  /* align-items: center; */
+
+}
+.footer{
+  margin-top: auto;
+}
+
+.footer p{
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin : 2.5rem 0;
+  text-align: center;
+
+}
+
+.input-text{
+  /* border: 2px solid red; */
+  /* background-color: ; */
+  background-color: #3e3b5e5a;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+::placeholder{
+  /* color : white; */
+}
+.input-text input{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  display: block;
+  width : 92%;
+  padding: 1.1em .4em;
+  font-size: 1.5rem;
+  font-weight: 300;
+  /* color : red; */
+  letter-spacing: .090em;
+  color : white;
+  /* color : red; */
+  font-family: 'Poppins';
+  
+}
+.footer img{
+  /* border: 2px solid red; */
+  padding : 1em;
+  cursor: pointer;
+}
+.greeting{
+  /* border: 2px solid red; */
+  
+  display: flex;
+  align-items: flex-start;
+  background-color: #3e3b5e5a;
+  /* background-color: #0c2461; */
+  border-radius: 1em;
+  padding: 2rem;
+  background-color: white;
+  color : black;
+  
+
+}
+/* do remember this property as it is used to reduce the width of the scrollbar bro  */
+::-webkit-scrollbar { 
+  width: 5px; 
+}
+.greeting img{
+  display: inline-block;
+  margin-right : 2rem;
+  /* font-size: 1rem; */
+  /* border: 2px solid red; */
+  width : 4rem;
+  height : 4rem;
+  object-fit: cover;
+  border-radius: 1rem;
+
+}
+.greeting p{
+  text-align: justify;
+  font-weight: 300;
+  letter-spacing: .020em;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+}
+
+.card{
+  /* border: 2px solid red; */
+  /* max-width : 25rem; */
+  overflow: auto;
+  width : 100%;
+  height : 36rem;
+  
+  margin-top : auto;
+  /* overflow-y: scroll; */
+  scroll-behavior: smooth;
+  padding: 1em 0;
+  /* scroll-margin-right: 15rem; */
+  /* scroll-snap-type: none; */
+  /* scroll-behavior: inherit; */
+  scrollbar-width: 0px;
+  /* scrollbar-track-color: red; */
+  
+}
+.user-text , .bot-text{
+  /* border: 2px solid red; */
+  display: flex;
+  width : 100%;
+  height : auto;
+  align-items: flex-start;
+  margin-bottom: 2.5rem;
+  padding: 2rem;
+}
+.bot-text{
+  /* border: 2px solid red; */
+  width : fit-content;
+  background-color: #3e3b5e5a;
+  /* background-color: #0c2461; */
+  border-radius: 1em;
+  
+  
+}
+.bot-text p{
+  /* padding-right: 1em; */
+}
+.user-text p , .bot-text p{
+  text-align: justify;
+  font-weight: 300;
+  letter-spacing: .015em;
+  
+}
+.user-text img , .bot-text img{
+  width : 3.8rem;
+  display: inline-block;
+  margin-right: 1.4rem;
+  border-radius: .5rem;
+}
+@media (max-width : 500px) {
+  :root{
+    font-size: 7px;
+  }
+  .side-1{
+    flex : 0%;
+  }
+  .side-division-1{
+    border: 2px solid red;
+    display: none;
+  }
+  .side-division-2{
+    border: 2px solid red;
+    display: none;
+  }
+  .side-2{
+    padding: 28px;
+    width : 100%;
+    flex : 100%;
+  }
+  .input-text{
+    /* border: 2px solid red; */
+    width : 100%;
+  }
+  .input-text input{
+    /* padding-right: 12px; */
+  }
+
+}
