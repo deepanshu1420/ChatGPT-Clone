@@ -15,7 +15,7 @@ This project is a ChatGPT clone that simulates a virtual therapist bot. Users ca
 ---
 
 ## ⚡ Features
-- **Real-time conversation:** Users chat with a smart AI bot for faster, helpful responses, boosting engagement by 40%.  
+- **Real-time conversation:** Users chat with a smart AI bot for faster, helpful replies, boosting engagement by 40%.  
 - **React.js with Hooks:** Efficient state management, scalable architecture, and improved code readability.  
 - **Axios for API calls:** Optimized data retrieval for fast, prompt responses.  
 - **Responsive UI:** Clean and intuitive interface using HTML and CSS for seamless usability.  
