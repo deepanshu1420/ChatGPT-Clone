@@ -36,7 +36,7 @@ This project is a ChatGPT clone that simulates a virtual therapist bot. Users ca
 git clone <your-repo-link>
 
 # Navigate to the project folder
-cd chatgpt-clone
+cd ChatGPT-Clone
 
 # Install dependencies
 npm install
