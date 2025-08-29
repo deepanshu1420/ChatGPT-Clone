@@ -43,7 +43,7 @@ Try the ChatGPT Clone online: [Chat with me](https://chatgpt-clone-online.netlif
 
 ### Home View
 ![Home View](./screenshots/home.png)  
-*ChatGPT Clone interface showcasing a sleek, responsive design built with React and Tailwind CSS.*
+*ChatGPT Clone interface showcasing a sleek, responsive design built with React.js and Tailwind CSS.*
 
 ### Mobile View
 ![Mobile View](./screenshots/mobileView.png)  
