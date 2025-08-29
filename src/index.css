@@ -14,9 +14,10 @@
 body {
   font-family: 'Poppins', sans-serif;
   width: 100%;
-  min-height: 100dvh;   /* ✅ Changed from 100vh */
+  height: 100dvh;   /* ✅ fixed viewport height */
   background-color: rgb(3, 0, 31);
   color: white;
+  overflow: hidden;  /* ✅ prevent body scroll */
 }
 
 p, li, span {
@@ -43,8 +44,9 @@ h1, h2, h3 {
 /* ---------------- Layout ---------------- */
 .main-component {
   width: 100%;
-  min-height: 100dvh;   /* ✅ Changed from 100vh */
+  height: 100dvh;   /* ✅ fixed height */
   display: flex;
+  overflow: hidden; /* ✅ no page scroll */
 }
 
 .side-1 {
@@ -169,16 +171,15 @@ i {
   padding-bottom: 0;
   display: flex;
   flex-direction: column;
-  min-height: 100dvh;   /* ✅ Changed from 100vh */
+  height: 100dvh;   /* ✅ fixed height */
 }
 
 /* ---------------- Chat Card ---------------- */
 .card {
   flex: 1;
-  overflow-y: auto;
+  overflow-y: auto;   /* ✅ only chat scrolls */
   overflow-x: hidden;
   width: 100%;
-  margin-top: auto;
   scroll-behavior: smooth;
   padding: 1em 0;
   scrollbar-width: none;       /* Firefox */
@@ -197,7 +198,7 @@ i {
   border-radius: 4rem;
   overflow: hidden;
   transition: all 0.3s ease;
-  margin-bottom: 2rem;   /* ✅ spacing above footer */
+  margin-bottom: 1.5rem;   /* ✅ spacing above footer */
 }
 
 .input-text input {
@@ -216,8 +217,7 @@ i {
 
 /* ---------------- Footer ---------------- */
 .footer {
-  position: relative;
-  bottom: 0;
+  flex-shrink: 0;   /* ✅ keeps footer pinned */
   width: 100%;
   margin-top: auto;
 }
@@ -226,7 +226,7 @@ i {
   text-align: center;
   font-size: 1.4rem;
   font-weight: 300;
-  margin: 2.5rem 0;
+  margin: 1.5rem 0;
 }
 
 .footer img {
@@ -342,10 +342,15 @@ i {
     padding: 28px;
     width: 100%;
     flex: 100%;
-    min-height: 100dvh;   /* ✅ added fix for mobile */
+    height: 100dvh;   /* ✅ fixed height mobile */
   }
 
   .input-text {
     width: 100%;
+    margin-bottom: 1.8rem;
+  }
+
+  .footer {
+    margin-bottom: -2rem;  /* ✅ consistent bottom */
   }
 }
