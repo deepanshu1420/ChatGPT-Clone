@@ -1,4 +1,4 @@
-/* ---------------- Existing CSS remains unchanged ---------------- */
+/* ---------------- Global Styles ---------------- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 
 * {
@@ -15,7 +15,7 @@ body {
   font-family: 'Poppins', sans-serif;
   width: 100%;
   min-height: 100vh;
-  background-color: rgb(3,0,31);
+  background-color: rgb(3, 0, 31);
   color: white;
 }
 
@@ -23,7 +23,7 @@ p, li, span {
   font-size: 1.6rem;
 }
 
-h1,h2,h3 {
+h1, h2, h3 {
   letter-spacing: .015em;
   margin-bottom: .3em;
 }
@@ -40,6 +40,7 @@ h1,h2,h3 {
   font-size: 2.2rem;
 }
 
+/* ---------------- Layout ---------------- */
 .main-component {
   width: 100%;
   min-height: 100vh;
@@ -60,6 +61,7 @@ h1,h2,h3 {
   padding: 2.4em;
 }
 
+/* ---------------- Sidebar ---------------- */
 .logo-image {
   width: 100%;
   display: flex;
@@ -113,7 +115,7 @@ h1,h2,h3 {
 }
 
 .side-1-btn button {
-  border: 1px solid rgba(255,255,255,0.4);
+  border: 1px solid rgba(255, 255, 255, 0.4);
   outline: none;
   background-color: #686de0;
   color: white;
@@ -160,25 +162,33 @@ i {
   font-size: 1.4rem;
 }
 
+/* ---------------- Main Chat Area ---------------- */
 .side-2 {
   flex: 75%;
   padding: 5rem 15rem;
   padding-bottom: 0;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
-.footer {
+/* ---------------- Chat Card ---------------- */
+.card {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 100%;
   margin-top: auto;
+  scroll-behavior: smooth;
+  padding: 1em 0;
+  scrollbar-width: none;       /* Firefox */
 }
 
-.footer p {
-  text-align: center;
-  font-size: 1.4rem;
-  font-weight: 300;
-  margin: 2.5rem 0;
+.card::-webkit-scrollbar {
+  display: none;               /* Chrome/Safari */
 }
 
+/* ---------------- Chat Input ---------------- */
 .input-text {
   background-color: #3e3b5e5a;
   display: flex;
@@ -187,6 +197,7 @@ i {
   border-radius: 4rem;
   overflow: hidden;
   transition: all 0.3s ease;
+  margin-bottom: 2rem;   /* ✅ spacing above footer */
 }
 
 .input-text input {
@@ -203,12 +214,28 @@ i {
   font-family: 'Poppins';
 }
 
+/* ---------------- Footer ---------------- */
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin: 2.5rem 0;
+}
+
 .footer img {
   padding: 1em;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
+/* ---------------- Greeting ---------------- */
 .greeting {
   display: flex;
   align-items: flex-start;
@@ -236,21 +263,7 @@ i {
   line-height: 2.7rem;
 }
 
-.card {
-  overflow-y: auto;          /* enable vertical scroll */
-  overflow-x: hidden;        /* hide horizontal scroll */
-  width: 100%;
-  height: 36rem;
-  margin-top: auto;
-  scroll-behavior: smooth;
-  padding: 1em 0;
-  scrollbar-width: none;       /* hide default scrollbar in Firefox */
-}
-
-.card::-webkit-scrollbar {
-  display: none;       /* hide default scrollbar in Chrome/Safari */
-}
-
+/* ---------------- Messages ---------------- */
 .user-text, .bot-text {
   display: flex;
   width: 100%;
@@ -280,7 +293,7 @@ i {
   border-radius: .5rem;
 }
 
-/* ------------------- Hover Effects ------------------- */
+/* ---------------- Hover Effects ---------------- */
 .side-1-btn button:hover,
 .question:hover,
 .input-text:hover,
@@ -290,7 +303,7 @@ i {
   box-shadow: 2px 5px 15px rgba(104, 109, 224, 0.6);
 }
 
-/* ------------------- Side-division-2 Icons ------------------- */
+/* ---------------- Sidebar Icons ---------------- */
 .side-division-2-icon {
   display: flex;
   align-items: center;
@@ -310,7 +323,7 @@ i {
   background-color: rgba(104, 109, 224, 0.1);
 }
 
-/* ------------------- Responsive ------------------- */
+/* ---------------- Responsive ---------------- */
 @media (max-width : 500px) {
   :root {
     font-size: 7px;
