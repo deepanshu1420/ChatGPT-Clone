@@ -17,9 +17,9 @@ This project is a ChatGPT clone that simulates a virtual therapist bot. Users ca
 ---
 
 ## ⚡ Features
-- **Real-time intelligent conversation:** Engage with a sophisticated AI chatbot providing context-aware, dynamic responses.  
+- **Real-time intelligent conversation:** Engage & Chat with a smart AI providing context-aware, dynamic responses.
 - **React.js with Hooks:** Advanced state management for scalable and maintainable frontend architecture.  
-- **Socket.io integration:** Enables seamless, low-latency, bidirectional communication between client and server for real-time updates.  
+- **Socket.io integration:** Enables fast, low-latency, bidirectional client-server communication.  
 - **OpenAI GPT-4.0-mini API key:** Secure access to the state-of-the-art AI model powering intelligent responses.  
 - **Axios for API requests:** Optimized asynchronous communication with robust error handling.  
 - **Responsive UI powered by Tailwind CSS:** Clean, modern, and adaptive interface across devices.  
