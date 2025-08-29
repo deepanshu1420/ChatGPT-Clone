@@ -40,10 +40,14 @@ Try the ChatGPT Clone online: [Chat with me](https://chatgpt-clone-online.netlif
 ---
 
 ## 🖼 Screenshots
-Here are some screenshots of the ChatGPT Clone in action:
 
-![Home View](screenshots/home.png)  
-![Mobile View](screenshots/mobileView.png)  
+### Home View
+![Home View](./screenshots/home.png)  
+*ChatGPT Clone interface showcasing a sleek, responsive design built with React and Tailwind CSS.*
+
+### Mobile View
+![Mobile View](./screenshots/mobileView.png)  
+*Responsive mobile layout providing seamless real-time AI interactions via Socket.io and OpenAI GPT-4.0-mini API.*
 
 ---
 
