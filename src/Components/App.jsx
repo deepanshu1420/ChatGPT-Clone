@@ -114,7 +114,7 @@ function App(){
                     <div className="bot-texts">
                         <div className="greeting">
                             <img src={ChatGPT} alt="" />
-                            <p>Hello! I’m Deepanshu Sharma — a passionate full-stack web
+                            <p>Hello! I’m Deepanshu Sharma — a passionate software
                                developer and programmer driven by an endless curiosity for technology. In this 
                                ever-evolving digital era, I’m committed to continuous learning, exploration, and self-growth. 
                                For me, every challenge is an opportunity to innovate and master new skills. Wishing everyone a

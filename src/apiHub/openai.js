@@ -14,7 +14,7 @@ async function sendMessage(question) {
     return chatCompletion.choices[0].message.content;
   } catch (error) {
     console.error("Error sending message:", error);
-    return "Your current quota has expired. Please upgrade your account!";
+    return "Your ChatGPT API key has expired or reached its usage limit, Please update your key or check your OpenAI account quota to continue using the services.";
   }
 }
 
