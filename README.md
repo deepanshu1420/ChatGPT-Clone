@@ -12,7 +12,12 @@
 ---
 
 ## 🌟 Overview
-This project is a ChatGPT clone that simulates a virtual therapist bot. Users can have real-time, context-aware conversations powered by OpenAI GPT-4.0-mini API. The app improves user engagement through interactive and meaningful responses.  
+This project is a ChatGPT clone that simulates a virtual therapist bot. Users can have real-time, context-aware conversations powered by OpenAI GPT-4.0-mini API. The app improves user engagement through interactive and meaningful responses.
+
+---
+
+## 🌐 Live Demo
+Try the ChatGPT Clone online: [Chat with me](https://chatgpt-clone-online.netlify.app/)
 
 ---
 
@@ -39,11 +44,6 @@ Here are some screenshots of the ChatGPT Clone in action:
 
 ![Home View](screenshots/home.png)  
 ![Mobile View](screenshots/mobileView.png)  
-
----
-
-## 🌐 Live Demo
-Try the ChatGPT Clone online: [Chat with me](https://chatgpt-clone-online.netlify.app/)
 
 ---
 
