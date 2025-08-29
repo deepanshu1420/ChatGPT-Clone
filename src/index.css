@@ -358,7 +358,7 @@ i {
   .bot-text p {
     line-height: 2.2rem;   /* compact lines */
     margin: 0;             /* no extra gaps */
-    font-size: 1.7rem;     /* readable size */
+    font-size: 1.5rem;     /* readable size */
     
   }
 }
