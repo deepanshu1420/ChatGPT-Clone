@@ -16,11 +16,6 @@ This project is a ChatGPT clone that simulates a virtual therapist bot. Users ca
 
 ---
 
-## 🌐 Live Demo
-Try the ChatGPT Clone online: [Chat with me](https://chatgpt-clone-onlinee.netlify.app/)
-
----
-
 ## ⚡ Features
 - **Real-time intelligent conversation:** Engage & Chat with a smart AI providing context-aware, dynamic responses.
 - **React.js with Hooks:** Advanced state management for scalable and maintainable frontend architecture.  
